@@ -3,9 +3,9 @@ body {font-family: Arial, Helvetica, sans-serif}
 
 .bg-img {
   /* The image used */
-  background-image: url("../images/st_john_logo.jpg");
+  background-image: url("../images/st_john_logo_sep_9_2020.jpg");
 
-  min-height: 380px;
+  min-height: 300px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -70,8 +70,8 @@ body {font-family: Arial, Helvetica, sans-serif}
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -127,4 +127,65 @@ body {font-family: Arial, Helvetica, sans-serif}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.sidepanel {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style page content */
+.main {
+  margin-left: 10%;  /*Same as the width of the sidebar */
+  margin-right: 10%;
+  padding: 0px 10px;
+}
+
+.main h1 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px 15px 15px 15%;
+	color: #33b5e5;
+}
+
+.main h2 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 28px;
+	line-height: 40px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.main h3 {
+	margin: 1em 0 0.5em 0;
+	font-weight: 600;
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+	font-size: 22px;
+	line-height: 40px;
+}
+
+.main p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.wrap-around-img {
+	float: left;
+	margin-right: 10px;
 }
